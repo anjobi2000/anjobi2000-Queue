@@ -77,6 +77,6 @@ public class Lab {
      * @return the next String due to be removed (peeked) from the Queue<String> (the oldest item in the queue.)
      */
     public String getStartOfQueueWithoutRemoving(Queue<String> queue){
-        return queue.peek();
+        return queue.peek(); //peek() returns null if empty
     }
 }
